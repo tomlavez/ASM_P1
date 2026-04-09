@@ -11,31 +11,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Padelean2">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.SplashActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Padelean2">
+            android:label="Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".presentation.LoginActivity"
-            android:exported="true"
-            android:label="Login">
+            android:exported="false" />
 
-            <intent-filter>
+        <activity
+            android:name=".presentation.BikeListActivity"
+            android:exported="false" />
 
-                <action android:name="android.intent.action.MAIN" />
+        <activity
+            android:name=".presentation.ProfileActivity"
+            android:exported="false" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-
-            </intent-filter>
-
-        </activity>
     </application>
 
 </manifest>
