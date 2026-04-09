@@ -1,6 +1,6 @@
-package cat.deim.asmxx.pedalean2.data
+package cat.deim.asm_18.pedalean2.data
 
-import cat.deim.asmxx.pedalean2.domain.models.User
+import cat.deim.asm_18.pedalean2.domain.models.User
 // import do UserModel da biblioteca do professor (o Android Studio vai importar depois)
 
 // Converte da Biblioteca (Data) para o seu App (Domain)
